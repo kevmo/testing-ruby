@@ -1,6 +1,16 @@
 # testing-ruby
 Testing software, mostly using Ruby. Initially started as a companion repo to  Effective Testing with RSpec 3.
 
+## Starting a project with RSpec
+
+bundle init
+gemrat rspec coderay rack-test sinatra
+
+
+Use `bundle exec` to make sure you're using the exact library versions you're expecting
+
+bundle exec rspec --init
+
 ## Kinds of Tests
 
 * _Acceptance_: Does the whole system work? Useful for big refactors.  These increase your ability to refactor application logic. End-to-end testing provide the best refactoring support. "Because they use your code's public interfaces, they don't depend on implementation details."
@@ -31,6 +41,11 @@ Specs will guide you to this goal.
 * spec - description of what you want that piece of code to do
 * example - how to use that piece of code
 * Red-Green-Refactor workflow
+* example group
+* expectation
+* sliming a test
+* 
+
 
 ## RSpec Keywords
 
@@ -55,4 +70,13 @@ Memoization
 
 ## Documentation
 
-* RSpec
+## CS Concepts
+
+* Composition
+*
+
+## Tools
+
+* Rack-Test
+*  Rspec
+* CodeRay
